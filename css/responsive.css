@@ -1,0 +1,379 @@
+
+@media only screen and (max-width: 600px) {
+    
+/*  <<<<<<< * Menu section Responsive css start * >>>>>>>>  */
+    
+ .single-level-menu ul
+    {
+        flex-direction: column;
+        margin-top: 25px;
+        
+    }
+ .single-level-menu ul li
+    {
+        padding: 5px 0;
+    }
+ .flex-header
+    {
+        flex-direction: column;
+    }
+ .social-menu 
+    {
+        display: none;
+    }
+    
+/*  <<<<<<< * Menu section Responsive css start * >>>>>>>>  */
+    
+/*  ***** Slider section Responsive css *****  */
+ #slider
+  {
+    
+  }
+ .slider-flex{
+ 	flex-direction: column;
+    align-items: center; 
+   
+ }
+ .btn1
+    {
+        margin: 0px;
+        
+    }
+ .slider-item-right
+    {
+        margin-top: 70px;
+    }
+    
+/*  @@@@@@>> Service section Responsive css <<@@@@@@ */
+    
+ .service-heading p
+    {
+        padding: 0px;
+        padding-top: 50px;
+    }
+ .felx-service
+    {
+        flex-direction: column;
+    }
+ .service-item
+    {
+        padding: 20px 0;
+    }
+    
+/*  """""" * bAbout scetion Responsive css * """""" */
+    
+ .about-item-left
+    {
+        display: none;
+    }
+ .about-item-right
+    {
+        width: 100%;
+        
+    }
+    
+/*  >>>>>>>@ Review section Responsive css @<<<<<<<< */
+    
+  .flex-review
+    {
+        flex-direction: column;
+    }
+    
+/*  ........ Pricing section Responsive css start ........ */
+    
+  .pricing-heading p
+    {
+        padding: 0px 10px;
+    }
+  .flex-pricing
+    {
+        flex-direction: column;
+        
+    }
+  .pricing-item
+    {
+        text-align: center;
+        padding: 10px 0;
+    }
+  .pricing-item p
+    {
+        padding: 0px;
+    }
+    
+ /* ........ Pricing section Responsive css end ........ */
+    
+/*  <<<<<<< Contact section Responsive css >>>>>>> */
+    
+  .flex-contact
+    {
+        flex-direction: column;
+    }
+  
+   
+/*  Main Industrie section Responsive css  */
+ 
+   .flex-main-industrie
+    {
+        flex-direction: column;
+    }
+
+    .main-industrie-item h4
+    {
+        display: none;
+        
+    }
+    .indudtrie-item-item1
+    {
+        display: none;
+    }
+    .main-industrie-item 
+    {
+        padding: 0px 0px 50px 0px;
+    }
+    
+    
+/*  ADD section Responsive css   */
+    
+    .flex-add
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+/*  info section Responsive css  */
+    
+    .flex-info
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+/*  pricing-plans section Responsive css  */
+    
+    .pricing-plans-heading
+    {
+        padding: 0px; 
+    }
+    .flex-pricing-plans
+    {
+        flex-direction: column;
+        
+    }
+    .pricing-plans-item
+    {
+        display: none;
+    }
+    
+/*  Request section Responsive css  */
+    
+    
+    .flex-request
+    {
+        flex-direction: column;
+/*        padding: 50px 0px;*/
+    }
+    .request-item p
+    {
+        width: 200px;
+    }
+    .req-item
+    {
+        flex-direction: column;
+        margin: 0px;
+    }
+    .request-item-item1
+    {
+       margin: 0px;
+    }
+    
+    .request-item-item1 input
+    {
+        width: 200px;
+    }
+
+   .request-item-item1 select
+    {
+        width: 200px;
+    }
+    
+    .request-item-item2
+    {
+       
+    }
+    .request-item-item2 input
+    {
+        width: 200px;
+        margin:0px;
+        margin-top: 20px;
+    }
+    .btn4
+    {
+        margin: 20px 20px 50px 20px;
+    }
+    
+    
+/*  <<<<<< Location info section responsive >>>>>>  */
+    .flex-location-info
+    {
+        flex-direction: column;
+    }
+    
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px)
+{
+    
+/*  ****** header section responsive start *****  */
+    
+    .flex-header
+    {
+        flex-direction: column;
+        justify-content: none;
+    }
+    .header-item
+    {
+        padding: 5px 0px;
+        justify-content: none;
+    }
+    .single-level-menu ul
+    {
+        margin-left: -10px;
+        
+    }
+    .single-level-menu ul li 
+    {
+
+        padding: 0 10px;
+    }
+    .single-level-menu ul li a
+    {
+
+        font-size: 10px;
+    }
+    
+ /*  ****** header section responsive end *****  */
+    
+    
+/* <<<<<<< slider section responsive start >>>>>>>   */
+    
+    .btn1
+    {
+        margin: 0px;
+        
+    }
+    
+    
+    
+/*  ##### service section responsive start #####  */
+    
+    .service-heading p
+    {
+        padding: 50px 0px 0px 0px;
+    }
+    
+/* **** pricing section responsive css start **** */
+    
+    
+    .pricing-heading p
+    {
+         padding: 0px 50px;  
+         
+    }
+    .pricing-item 
+    {
+        padding: 30px 0px;
+        text-align: center;
+    }
+    
+    .pricing-item p
+    {
+        padding: 0px;
+    }
+    
+/*  ....... main-industrie section respondive start ........  */
+    .main-industrie-item
+    {
+        padding: 20px 100px;
+    }
+    .flex-main-industrie
+    {
+        flex-direction: column;
+    }
+    .item-item-flex
+    {
+        padding: 0px;
+    }
+    .indudtrie-item-item1 footer
+    {
+        padding: 10px 40px;
+    }
+    
+/*  ***** pricing-plans section responsive start *****  */
+    
+    .pricing-plans-heading
+    {
+        padding: 0px;
+    }
+    .flex-pricing-plans
+    {
+        flex-direction: column;
+    }
+    .pricing-plans-item
+    {
+        margin-top: 30px;
+    }
+    
+/*  <<<<< request section responsive start >>>>>  */
+    
+    .request-item
+    {
+        margin: 0px;
+    }
+    .flex-request
+    {
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+    .request-item-item1
+    {
+        margin: 0px;
+    }
+    
+    .request-item-item1 input
+    {
+        width: 250px;
+    }
+
+   .request-item-item1 select
+    {
+        width: 250px;
+    }
+    
+    .request-item-item2 input
+    {
+        width: 250px;
+    }
+    
+/*  <<<<<<<  >>>>>>  */
+    
+    .location-info-item
+    {
+        padding: 0px 10px;
+    }
+    .location-info-item h3 
+    {
+        font-size: 12px;
+    }
+    
+    .location-info-item ul li
+    {
+        font-size: 12px;
+    }
+    .last-class ul:last-child 
+    {
+        margin-left: 75px;
+        margin-top: -138px;
+    }
+    
+    
+}

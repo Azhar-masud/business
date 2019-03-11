@@ -1,0 +1,734 @@
+/*font-name: Montserrat */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/*
+# Project Name: ;
+# Project Athor: ;
+# Project Start Date : ;
+# Versin : 1.0;
+# All Section:
+  1-Header.
+  2-Banner.
+
+*/
+
+
+/* @@@==>" Base css start "<==@@@ */
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.mt-1
+{
+    margin-top: 10px;
+}
+.ml-1
+{
+    margin-left: 30px;
+}
+/* @@@==>" Base css end "<==@@@ */
+
+/* <<<<< Header section css start >>>>>> */
+header
+{
+    background: #0a1c58;
+    padding: 45px 0;
+}
+.container
+{
+    margin: 0 95px;
+}
+.main-menu
+{
+   color: #c8c8c8; 
+}
+
+.flex-header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* logo style */
+.logo
+{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+/* menu bar style*/
+.single-level-menu ul
+{
+    display: flex;
+}
+.single-level-menu ul li
+{
+    padding: 0 13px;
+}
+.single-level-menu ul li a
+{
+    color: #c8c8c8;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.single-level-menu ul li a:hover
+{
+    color: #fff;
+}
+.contact-number ul
+{
+    display: flex;
+}
+
+.contact-number ul li a
+{
+    color: #c8c8c8;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.social-menu ul
+{
+    display: flex;
+}
+.social-menu ul li
+{
+    padding: 0 6px;
+}
+.social-menu ul li a
+{
+    color: #c8c8c8;
+}
+.phone-icon-header
+{
+    padding: 7px;
+}
+
+/* <<<<< Header section css end >>>>>> */
+
+
+
+/* <<<<< Slider section css start >>>>>> */
+
+#slider
+{
+    background: #2c2c2c;
+    display: flex;
+    
+}
+.slider-flex
+{
+     flex-direction: row;
+     justify-content:space-between;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     padding: 100px 0px;
+}
+.slider-item-left
+{
+    display: flex;
+    width: 50%;
+} 
+.slider-item-right
+{
+    display: flex;
+    width: 50%;
+} 
+
+.slider-text
+{
+    color:#fff;
+}
+.slider-text span
+{
+    text-transform: uppercase;
+}
+.slider-text h1
+{
+    font-size: 42px;
+}
+.slider-text .btn
+{ 
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.btn1
+{
+    background: none;
+    border:1px solid #c8c8c8;
+    padding: 15px 30px;
+}
+.btn1:hover
+{
+    background: #b93232;
+    border: none;
+}
+.slider-video 
+{
+    display: flex;
+    margin: 0 auto;
+}
+.video-icon
+{
+    font-size: 20px;
+}
+.video-icon a
+{
+    color: #c8c8c8;
+    border: 1px solid #c8c8c8;
+    border-radius:50%; 
+    padding: 50px;
+     
+}
+/* <<<<< Slider section css end >>>>>> */
+
+
+/*>>>>>>>>>>> *** Service Section CSS Start *** <<<<<<<<<<<<*/
+.service
+{
+    display: flex;
+}
+.service-heading
+{
+    display: flex; 
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.service-heading p
+{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px 300px 0px 300px;
+}
+.felx-service
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    
+}
+.service-item
+{
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 20px 100px 20px;
+}
+.service-icon
+{
+    font-size: 40px;   
+}
+.service-icon a
+{
+    color: #b02727;
+}
+
+/*>>>>>>>>>>> *** Service Section CSS End *** <<<<<<<<<<<<*/
+
+
+
+/* >>>>>>> ** About Section CSS start ** <<<<<<<*/
+
+#about
+{
+     display: flex; 
+    
+}
+.flex-about
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.about-item-left
+{
+    
+    width: 65%;
+    display: flex;
+    background: #6e6e6e;
+}
+.about-item-right
+{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: #0a1c58;
+    color: #fff;
+    padding: 100px 70px;
+}
+.about-item-right h3
+{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-item-right img
+{
+    width: 200px;
+}
+
+/* >>>>>>> ** About Section CSS end ** <<<<<<<*/
+
+/* """""" @ Review section css start @ """""" */
+
+.flex-review
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.review-item
+{
+    padding: 60px;
+    color: #fff;
+}
+.review-item1
+{
+    background: #0a1c58;
+}
+.review-item2
+{
+    background: #b02727;
+}
+.review-item3
+{
+    background: #0f2673;
+}
+/* """""" @ Review section css End @ """""" */
+
+/* ***> Pricing section css start <*** */
+#pricing
+{
+    padding: 100px 0px;   
+}
+.pricing-heading
+{
+    text-align: center;
+    margin: 0px auto;
+}
+.pricing-heading h1
+{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 0px;
+}
+.pricing-heading p
+{
+    padding: 0px 350px;
+}
+.flex-pricing
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row
+    
+}
+.pricing-item
+{
+    padding: 70px 20px;
+}
+.pricing-item a
+{
+    color: #b02727;
+}
+.pricing-item span
+{
+    font-size: 50px;
+    font-weight: 900;
+    color: #0a1c58;
+    padding: 0px 20px;
+}
+.pricing-item  p
+{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 0 0 70px;
+}
+/* ***> Pricing section css end <*** */
+
+
+/* contact css start */
+
+#contact
+{
+    background: #0a1c58;
+    color: #fff;
+    padding: 70px  0px;  
+}
+.flex-contact
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact-item 
+{
+    width: 50%;
+}
+.contact-item span
+{
+    font-size: 20px;
+}
+.btn3
+{
+    background: none;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    float: right;
+    border: 1px solid #fff;
+}
+.btn3:hover
+{
+    border: none;
+    background-color: #b93232;
+}
+/* contact css end */
+
+
+/* .........** main-industrie div css start **.......... */
+
+#main-industrie
+{
+    
+}
+.flex-main-industrie
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+.main-industrie-item
+{
+    padding: 60px 0px;
+    width: 50%;
+}
+.main-industrie-item h4
+{
+    font-size: 18px;
+    font-weight: 700;
+}
+.main-industrie-item h2
+{
+    font-weight: 900;
+    font-size: 40px;
+}
+.main-industrie-item a
+{
+    color: #b02727;
+    padding: 0px 15px 0px 0px;
+}
+.item-item-flex
+{
+    display: flex;
+}
+.indudtrie-item-item1
+{
+    width: 270px;
+    height: 300px;
+    background: #6e6e6e;
+    color: #fff;
+    margin: 40px 30px;
+}
+.footer
+{
+    padding: 20px 25px;
+    background-color: #14245a;
+    margin-top: 228px;
+}
+.footer a
+{
+    color: #fff;
+    
+}
+.indudtrie-item-item2
+{
+    width: 270px;
+    height: 300px;
+    background: #aa2e2e;
+    margin-top: 40px;
+    color: #fff;
+    
+}
+.item2-text
+{
+    padding: 60px 30px;
+}
+.item2-text a
+{
+    color: #fff; 
+    
+}
+.item2-text p
+{
+    padding-top: 10px;
+}
+
+/* .........** main-industrie div css end **.......... */
+
+/* Add section css start */
+#add
+{
+    background: #f6f6f6; 
+    
+}
+.flex-add
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.flex-add img
+{
+    margin: 65px 0px;
+}
+
+/* Add section css End */
+
+/* >>>>>>> Member information css start <<<<<< */
+#member-info
+{
+    background: #2c2c2c;
+    padding: 100px 0px;
+}
+.flex-info
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.info-item
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.info-item img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.info-text
+{
+    color: #fff;
+    padding: 0px 30px;
+}
+.info-text span
+{
+    font-weight: 700;
+}
+/* >>>>>>> Member information css end <<<<<< */
+
+
+/* <<<<<< pricing-plans section css start >>>>>> */
+
+ #pricing-plans
+{
+    background: #fdfdfd;
+    padding: 100px 0px;
+}
+.pricing-plans-heading
+{
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px 250px 100px 250px;
+}
+.pricing-plans-heading h1
+{
+    font-weight: 900;
+}
+.flex-pricing-plans
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.pricing-plans-item h4
+{
+    background: #e4e4e4;
+    padding: 25px 120px;
+    color: #7e7e7e;
+    margin: 0px auto;
+    
+}
+.pricing-plans-item:hover h4
+{
+    background: #14245a;
+    padding: 40px 120px;
+    color: #fff;
+    transition: .4s;
+}
+.pricing-plans-item
+{
+    text-align: center;
+    background: #fff;
+    box-shadow: 2px 2px 1px 1px #F9F9F9;
+}
+.pricing-plans-item h1
+{
+    font-weight: 900;
+}
+.pricing-plans-item ul li
+{
+    padding: 10px 0;
+}
+.pricing-plans-item button
+{
+    padding: 15px 40px;
+    background: #b02727;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+/* <<<<<< pricing-plans section css end >>>>>> */
+
+/* ##### Request section css start ##### */
+
+#request
+{
+    background: #0a1c58;
+    color: #fff;
+}
+.flex-request
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.request-item
+{
+    margin: 80px 0px;
+    
+}
+.request-item p
+{
+    width: 350px;
+}
+.req-item
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.request-item-item1
+{
+    margin-left: 100px;
+}
+.request-item-item1 input
+{
+    height: 45px;
+    width: 350px;
+    margin-top: 30px;
+    background: #304074;
+    border: none;
+}
+.request-item-item1 select
+{
+    height: 50px;
+    width: 352px;
+    background: #304074;
+    border: none;
+    color: #fff;
+    padding-left: 5px;
+}
+.request-item-item2 input
+{
+    height: 45px;
+    width: 350px;
+    margin-left: 30px;
+    background: #304074;
+    border: none;
+}
+.btn4
+{
+    margin: 30px; 0px 20px 0px;
+    background: none;
+    border: 2px solid #fff;
+    padding: 15px 50px;
+    color: #fff;
+}
+.request-item-item1 input::placeholder
+{
+    padding-left: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+.request-item-item2 input::placeholder
+{
+    padding-left: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+/* ##### Request section css end ##### */
+
+/* .....@ locatin-info css start @...... */
+
+#location-info
+{
+    background: #101010;
+    color: #fff;
+    padding: 80px 0px;
+    
+}
+.flex-location-info
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.location-info-item h3
+{
+    text-transform: uppercase;
+}
+.location-info-item ul li
+{
+    padding: 10px 0;
+    color: #8e8e8e;
+}
+.last-class ul:last-child
+{
+    margin-left: 100px;
+    margin-top: -155px;
+}
+/* .....@ locatin-info css end @...... */
+
+/* .... footer css ....  */
+footer
+{
+    padding: 50px 0;
+    background: #101010; 
+    border-top: 2px solid #1d1d1d; 
+}
+footer p
+{
+    text-align: center;
+    color: #8e8e8e;
+}
